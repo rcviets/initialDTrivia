@@ -1,18 +1,21 @@
 //Dependencies
-let express = require('express');
-let mongoose = require('mongoose');
-let axios = require('axios');
-let logger = require('morgan');
+const express = require('express');
+const mongoose = require('mongoose');
+const axios = require('axios');
+const logger = require('morgan');
 
 //Require Database Models
 
 //Import Routes
 
 //Create Port
-let PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/mongoTrivia';
+
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 //Initialize
-let app = express();
+const app = express();
 
 //Middleware
 
@@ -29,3 +32,5 @@ app.use(express.static('public'));
 app.listen(PORT, function() {
     console.log(`🌎 ==> Server Running On Port ${PORT}!`);
 });
+
+module.exports = app;
