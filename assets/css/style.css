@@ -3,3 +3,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+.header {
+    font-family: 'Teko', sans-serif;
+}
+
+/*font-family: 'Roboto Mono', monospace;
+font-family: 'Teko', sans-serif;
+font-family: 'Press Start 2P', cursive;*/
