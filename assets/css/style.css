@@ -17,6 +17,44 @@ h1 {
     color: #000000;
 }
 
+.startButton {
+    width: 100vw;
+    height: 65vh;
+    text-align: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #C11C26;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.button:hover {
+    background-color: #A71A22;
+}
+
+.button:active {
+    background-color: #A71A22;
+    box-shadow: 0 5px #AEAEAF;
+    transform: translateY(4px);
+}
+
 /*font-family: 'Roboto Mono', monospace;
 font-family: 'Teko', sans-serif;
 font-family: 'Press Start 2P', cursive;
