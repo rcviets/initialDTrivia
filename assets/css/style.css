@@ -5,9 +5,19 @@ body {
 }
 
 .header {
+    position: fixed;
     font-family: 'Teko', sans-serif;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    text-shadow: 4px 4px #AEAEAF;
+    font-style: oblique;
+    color: #000000;
 }
 
 /*font-family: 'Roboto Mono', monospace;
 font-family: 'Teko', sans-serif;
-font-family: 'Press Start 2P', cursive;*/
+font-family: 'Press Start 2P', cursive;
+red #C11C26*/
