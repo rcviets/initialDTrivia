@@ -69,6 +69,45 @@ h1 {
     border-radius: 50%;
 }
 
+@keyframes allYellow {
+    from {background-color: #000000;}
+    to {background-color: yellow;}
+}
+
+#yellow1 {
+    animation-name: allYellow;
+    animation-duration: 0.1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#yellow2 {
+    animation-name: allYellow;
+    animation-duration: .1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#yellow3{
+    animation-name: allYellow;
+    animation-duration: .1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes allGreen {
+    from {background-color: #000000;}
+    to {background-color: green;}
+}
+
+#green {
+    animation-name: allGreen;
+    animation-duration: .1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+
 /*font-family: 'Roboto Mono', monospace;
 font-family: 'Teko', sans-serif;
 font-family: 'Press Start 2P', cursive;
