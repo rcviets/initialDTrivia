@@ -55,6 +55,18 @@ h1 {
     transform: translateY(4px);
 }
 
+#startLights {
+    display: none;
+}
+
+.dot {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
 /*font-family: 'Roboto Mono', monospace;
 font-family: 'Teko', sans-serif;
 font-family: 'Press Start 2P', cursive;
