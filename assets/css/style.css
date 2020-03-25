@@ -57,33 +57,23 @@ h1 {
     transform: translateY(4px);
 }
 
+#startLights {
+    display: none;
+    border-style: double;
+    border-width: 15px;
+    border-color: #000000;
+    background-color: #1C1B1B;
+}
 
 .dot {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 65px;
+    width: 65px;
     padding: 16px;
     margin: 5px;
     background-color: #000000;
     border-radius: 50%;
     border-style: inset;
-}
-
-@keyframes endLights {
-    from {visibility: visible;}
-    to {visibility: hidden;}
-}
-
-#startLights {
-    display: none;
-    border-style: double;
-    border-width: 15px;
-    border-color: #AEAEAF;
-    background-color: #1C1B1B;
-    animation-name: endLights;
-    animation-duration: .1s;
-    animation-delay: 3.5s;
-    animation-fill-mode: forwards;
 }
 
 @keyframes allYellow {
@@ -114,7 +104,7 @@ h1 {
 
 @keyframes allGreen {
     from {background-color: #000000;}
-    to {background-color: #64DE2F;}
+    to {background-color: green;}
 }
 
 #green {

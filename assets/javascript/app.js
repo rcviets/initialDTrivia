@@ -1,8 +1,14 @@
 const startGame = () => {
     start1();
+
     setTimeout(endStart1 = () => {
         document.getElementById('startLights').style.display = 'none';
-    }, 3500);;
+    }, 3500);
+
+    setTimeout(goSign = () => {
+        document.getElementById('goDiv')
+    }, 3600);
+
 };
 
 const start1 = () => {
