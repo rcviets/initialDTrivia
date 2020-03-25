@@ -6,8 +6,12 @@ const startGame = () => {
     }, 3500);
 
     setTimeout(goSign = () => {
-        document.getElementById('goDiv')
+        document.getElementById('goDiv').style.display = 'inline-block';
     }, 3600);
+
+    setTimeout(endGoSign = () => {
+        document.getElementById('goDiv').style.display = 'none';
+    }, 4000);
 
 };
 
